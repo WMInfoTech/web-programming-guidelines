@@ -13,8 +13,8 @@ Because they are limited in scope, but easier to develop on, developing on
 covered here.
 
 While this document specifies some conventions used by William & Mary, it can be
-summarized to say that all code should be developed in a way that the developer would not be
-embarrassed to release the source code publicly with their name attached.
+summarized to say that all code should be developed in a way that it could withstand
+scrutiny from developers outside of W&M.
 
 1. [Platform Overview](#platform-overview)
 2. [Security Model](#security-model)
