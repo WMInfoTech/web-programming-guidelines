@@ -60,8 +60,8 @@ experienced developers to make sense of code that is new to them. Style refers t
 of code, including variable, class, method naming conventions, and sometimes how some
 operations are handled.
 
-If a specific framework is used, and has specifies how theming, database queries, or code
-layout then it should be followed. For example, writing database queries by hand should
+If a specific framework is used, and specifies how theming, database queries, or code
+layout should be used, then it should be followed. For example, writing database queries by hand should
 be avoided in [Laravel](https://laravel.com/docs/5.2/queries) (or any framework that
 supplies ORM) whenever possible, and database queries shouldn't show up in the view
 on any MVC.
@@ -93,6 +93,8 @@ Unless a framework being used has its own style guide, the community maintained
 
 Established best practices must be followed for preventing cross-site scripting attacks (XSS),
 SQL/Shell Injections.
+
+**** PROVIDE LINKS TO BEST PRACTICES HERE ****
 
 ### PHP Platform Security
 
