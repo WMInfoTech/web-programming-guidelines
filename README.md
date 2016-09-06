@@ -25,11 +25,12 @@ scrutiny from developers outside of W&M.
     - [Node.js Style](#nodejs-style)
 4. [Security Best Practices](#security-best-practices)
     - [PHP Platform Security](#php-platform-security)
-6. [Shared Cluster Considerations](#shared-cluster-considerations)
+5. [Shared Cluster Considerations](#shared-cluster-considerations)
     - [Reverse Proxy](#reverse-proxy)
     - [Shared Storage](#shared-storage)
     - [htaccss Files](#htaccess-files)
-5. [Documenting your Application](#documenting-your-application)
+6. [Documenting your Application](#documenting-your-application)
+7. [Authenticating Users](#authenticating-users)
 
 ## Platform Overview
 
@@ -176,3 +177,18 @@ Projects should support a widely used and language-relevant (i.e. PHPDoc shouldn
 documentation tool such as [PHPDoc](https://www.phpdoc.org/),
 [Sphinx](http://www.sphinx-doc.org/en/stable/), or [RDoc](https://github.com/rdoc/rdoc) whenever
 the project is sufficiently complex.
+
+## Authenticating Users
+
+Single sign on (SSO) should be used to authenticate users. Central Authentication
+Service (CAS) and Shibboleth/SAML are both available as identity providers. CAS is the
+preferred method, and typically is the easiest to setup. SAML may not be made available
+in all cases.
+
+### CAS Libraries
+
+There are a number of CAS libraries available for each supported language. There are add-ons
+to many popular frameworks that add CAS support to the built in authentication/authorization
+mechanisms.
+
+A web search will help you identify which one is right for your use case.
