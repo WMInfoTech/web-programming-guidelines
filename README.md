@@ -196,3 +196,8 @@ to many popular frameworks that add CAS support to the built in authentication/a
 mechanisms.
 
 A web search will help you identify which one is right for your use case.
+
+## Additional Questions
+
+IT is available for questions and consulting around web application development, and prefers
+to be involved early if there is any question.
