@@ -160,10 +160,13 @@ applications, contact IT to find out what to use.
 
 ### htaccess Files
 
-As is recommended by the
+As recommended in the
 [Apache documentation](https://httpd.apache.org/docs/current/howto/htaccess.html#when),
 .htaccess files are ignored. IT can add any required configuration to the Apache
 configuration.
+
+Even though the web server will ignore these, it's recommended that they be included
+with your application as a form of documentation for yourself and future developers.
 
 #### Additional Libraries
 
