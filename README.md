@@ -92,10 +92,14 @@ Unless a framework being used has its own style guide, the community maintained
 
 ## Security Best Practices
 
-Established best practices must be followed for preventing cross-site scripting attacks (XSS),
-SQL/Shell Injections.
+Widely accepted best practices must be followed to prevent common web application
+attacks (e.g. injection attacks, cross-site scripting, data disclosure, etc.). The
+exact method used will vary based on the framework and language being used in
+your application.
 
-**** PROVIDE LINKS TO BEST PRACTICES HERE ****
+While not exhaustive, the SANS Institute has published a paper titled "[A Security
+Checklist for Web Application Design](https://www.sans.org/reading-room/whitepapers/securecode/security-checklist-web-application-design-1389)"
+that addresses many issues.
 
 ### PHP Platform Security
 
